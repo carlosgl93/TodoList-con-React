@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const Input = (props) => {
-    let [inputValue, setInputValue] = useState("la lora");
+    let [inputValue, setInputValue] = useState("Your task here");
     
     function handleSumbit(e) {
         e.preventDefault()
